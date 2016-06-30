@@ -14,7 +14,7 @@ import javax.swing.text.StyleConstants;
 public class PasswordGenerator extends JFrame {
 
 	private static final long serialVersionUID = 1L;
-	private String generatedpassword = "Íàæìèòèå `Ñãåíåðèðîâàòü ïàðîëü`";
+	private String generatedpassword = "ÐÐ°Ð¶Ð¼Ð¸Ñ‚Ðµ `Ð¡Ð³ÐµÐ½ÐµÑ€Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ`";
 	private int length = 16;
 
 	public PasswordGenerator() {
@@ -33,7 +33,7 @@ public class PasswordGenerator extends JFrame {
 		password.setEditable(false);
 		add(password);
 		
-		JButton button = new JButton("Ñãåíåðèðîâàòü ïàðîëü");
+		JButton button = new JButton("Ð¡Ð³ÐµÐ½ÐµÑ€Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ");
 		add(button);
 		button.addActionListener(action -> {
 			String valid = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
