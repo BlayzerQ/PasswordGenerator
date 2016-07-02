@@ -14,7 +14,7 @@ import javax.swing.text.StyleConstants;
 public class PasswordGenerator extends JFrame {
 
 	private static final long serialVersionUID = 1L;
-	private String generatedpassword = "Нажмите `Сгенерировать пароль`";
+	private String generatedpassword = "Нажмите\n `Сгенерировать пароль`";
 	private JTextPane length = new JTextPane();
 
 	public PasswordGenerator() {
