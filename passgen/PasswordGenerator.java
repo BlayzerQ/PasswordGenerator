@@ -49,7 +49,7 @@ public class PasswordGenerator extends JFrame {
 		});
 		panel.add(button);
 		
-				JButton back = new JButton("Назад");
+		JButton back = new JButton("Назад");
 		back.setBackground(Color.GRAY);
 		back.addActionListener(action -> {
 			setContentPane(panel);
