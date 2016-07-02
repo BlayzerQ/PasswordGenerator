@@ -59,10 +59,15 @@ public class PasswordGenerator extends JFrame {
 		length.setText("16");
 		settings.setBackground(Color.GRAY);
 		settings.addActionListener(action -> {
+			JTextPane text = new JTextPane();
+			text.setText("Длинна пароля:");
+			text.setParagraphAttributes(attribs, true);
+			text.setEditable(false);
 			JPanel panel2 = new JPanel();
-			panel2.setLayout(new GridLayout(2, 1));
+			panel2.setLayout(new GridLayout(3, 1));
 
 			length.setParagraphAttributes(attribs, true);
+			panel2.add(text);
 			panel2.add(length);
 			panel2.add(back);
 			
